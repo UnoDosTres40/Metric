@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'RobotoSlad';
+    src: url(/assets/fonts/RobotoSlab.ttf);
+}
+
+:root {
+    --main-bg-color: white;
+    --main-text-color:#333333;
+    --number-text-color: #489FD9;
+    --button-font: 'RobotoSlab'
+}
+

@@ -1,0 +1,31 @@
+.devices_wrapping {
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.devices_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.devices_title_main {
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.devices_title_text {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.devices_web {
+    display: flex;
+}

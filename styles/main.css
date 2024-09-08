@@ -1,0 +1,40 @@
+@import url("/styles/comments.css");
+@import url("/styles/companies.css");
+@import url("/styles/devices.css");
+@import url("/styles/footer.css");
+@import url("/styles/header.css");
+@import url("/styles/landing.css");
+@import url("/styles/plans_pricing.css");
+@import url("/styles/variable.css");
+
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url("/assets/fonts/RobotoMedium.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url("/assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'RobotoMedium';
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+

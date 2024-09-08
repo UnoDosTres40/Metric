@@ -1,0 +1,12 @@
+.companies_wrapper {
+    background-color: #3E5C50;
+}
+
+.companies_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 250px;
+    gap: 40px;
+}

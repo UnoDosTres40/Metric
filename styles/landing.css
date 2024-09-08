@@ -1,0 +1,82 @@
+.landing_wrapper {
+    background-color:#4DBD90 ;
+    background: url(/assets/images/landing_line.png);
+    width: 100%;
+}
+
+.landing_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 240px;
+    gap:100px;
+}
+
+.landing_text_info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+}
+
+.landing_text_info_title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    color: white;
+}
+
+.landing_text_info_text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+}
+
+.landing_text_info_buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.landing_text_info_button_black {
+    padding: 13px 23px;
+    background: black;
+    color: white;
+    font-family: var(--button-font);
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+.landing_text_info_button_black:hover {
+    background: none;
+    color: black;
+}
+
+.landing_text_info_button_black:active {
+    background: none;
+    border: black;
+    
+}
+
+.landing_text_info_button_light {
+    padding: 13px 23px;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--button-font);
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+.landing_text_info_button_light:hover {
+    background: black;
+    color: white;
+}
+
+
